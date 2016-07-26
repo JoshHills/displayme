@@ -1,0 +1,89 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Cutive', serif;
+}
+#image-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/question-bg.png');
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#text-container {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    min-width: 33%;
+    padding: 3rem;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+#question {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+#input {
+    width: 100%;
+    padding: .5rem;
+}
+#response {
+    text-align: right;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: #555;
+}
+#finish {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    outline: 2px solid #eee;
+    text-decoration: none;
+    letter-spacing: 5;
+    visibility: hidden;
+}
+#after {
+    display: none;
+}
+#image-container > div {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+#image-container > div > img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+#you {
+    margin: 0;
+    text-align: center;
+    font-size: 1.75rem;
+}
+.final {
+    padding: 1.25rem !important;
+}
+#footer {
+    position: absolute;
+    bottom: 10;
+    width: 90%;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}

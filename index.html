@@ -1,0 +1,45 @@
+<html>
+
+    <head>
+
+        <!-- Meta Info (SEO) -->
+        <title>display me</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <meta property="og:title" content="display me">
+        <meta property="og:site_name" content="display me">
+        <meta property="og:url" content="http://www.jumbledjargon.website/displayme/">
+        <meta property="og:description" content="a verbal 'rorschach' test, build a collage of you">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://www.jumbledjargon.website/displayme/img/share-img.jpg" />
+
+        <!-- Imports. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/displayme.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Cutive" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/displayme.css" />
+
+    </head>
+    
+    <body>
+    
+    <!-- Display the images siphoned. -->
+    <div id="image-container"></div>
+    <!-- Display all of the controllers. -->
+    <div id="text-container">
+        <div id="inputs">
+            <p id="question">Loading...</p>
+            <input id="input" type="text" placeholder="type a word" maxlength="24" />
+            <p id="response">...don't be shy</p>
+        </div>
+        <div id="after">
+            <p id="you">this is you</p>
+        </div>
+        <a id="finish" href="javascript:finish()" alt="finish">- done -</a>
+    </div>
+    <!-- Provide extra information. -->
+    <div id="footer"><p>created with curiosity by <a href="https://twitter.com/joshmarcushills" target="_new">josh hills</a> | images taken from '<a href="http://flickr.com/" target="_new">flickr</a>' | no information is stored about you.</p></div>
+
+    </body>
+    
+</html>
